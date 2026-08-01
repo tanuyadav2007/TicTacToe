@@ -29,6 +29,7 @@ body{
     border-radius: 1rem;
     border:none;
     box-shadow:0,0,1rem rgba(0,0,0.3);
+    background-color: #FFF449;
 }
 #reset-btn{
     padding:1rem;
