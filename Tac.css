@@ -42,22 +42,26 @@ body {
   border: none;
 }
 #new-btn {
- padding:1rem;
-    font-size: 1.25rem;
-    background-color: #131313;
-    color: white;
-    border-radius: 1rem;
-    border: none;
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #131313;
+  color: white;
+  border-radius: 1rem;
+  border: none;
 }
 
-#msg{
-     color:#ffffc7;
-    font-size: 5vmin;
+#msg {
+  color: #ffffc7;
+  font-size: 5vmin;
 }
 .msg-container{
-    height:60vmin;
-    
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
 }
-.hide{
-    display:none;
+.hide {
+  display: none;
 }
